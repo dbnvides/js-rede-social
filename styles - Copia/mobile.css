@@ -1,0 +1,137 @@
+@media (max-width: 700px){
+    
+    .navbar{
+        max-width: 100%;
+        position: fixed;
+        top: 0;
+    }
+
+    .navbar>div{
+        flex-direction: row;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        max-width: 500px;
+        align-items: center;
+    }
+    
+    .container-main{
+       max-width: 100%;
+    }
+
+    .description-new-post{
+        height: 130px;
+    }
+
+    .list-sug{
+        flex-direction: row;
+        margin-left: 0;
+        gap: 1rem;
+        max-width: none;
+        width: max-content
+    }
+
+    .container-aside{
+        position: relative;
+        max-width: 100%;
+        padding: 10px;
+        width: 500px;
+        position: static;
+        margin-bottom: 2rem;
+        margin-top: 0;
+        overflow: auto;
+    }
+
+    .container-aside>h2{
+        position: static;
+    }
+
+    .list-profiles{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 100px;
+        align-items: flex-start;
+        max-width: none;
+    }
+
+    .modal{
+        max-width: 90%;
+        max-height: 90%;
+        position: relative;
+        top: 2.5rem;
+        overflow: auto;
+    }
+
+}
+
+@media (max-width: 1100px) {
+    .navbar{
+        max-width: 100%;
+        position: fixed;
+        top: 0;
+    }
+
+    .navbar>div{
+        flex-direction: row;
+    }
+   
+    .container-aside{
+        position: relative;
+        max-width: 100%;
+        padding: 10px;
+        width: 100%;
+        position: static;
+        margin-bottom: 2rem;
+        margin-top: 0;
+        overflow: auto;
+    }
+    .container-aside>h2{
+       position: sticky;
+       left: 0px;
+       top: 0;
+    }
+    
+    .list-sug{
+        flex-direction: row;
+        margin-left: 0;
+        gap: 1rem;
+        max-width: none;
+        width: max-content
+    }
+
+    .list-profiles{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 100px;
+        align-items: flex-start;
+        max-width: none;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .container-main{
+        max-width: 100%;
+     }
+
+     .modal{
+        max-width: 90%;
+        position: relative;
+        top: 2.5rem;
+    }
+}
+
+@media (max-width: 1600px){
+    .container-aside{
+        right: 10rem;
+    }
+}
